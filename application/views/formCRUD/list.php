@@ -10,8 +10,8 @@
   <thead>
       <tr>
           <th>Name</th>
-          <th>Email</th>
           <th>Date of birth</th>
+          <th>Email</th>
           <th>Favorite color</th>
           <th width="220px">Action</th>
       </tr>
@@ -22,7 +22,7 @@
           <td><?php echo $form->name; ?></td>
           <td><?php 
             $date = new DateTime($form->date_of_birth);
-            echo $date->format('m-d-Y H:i:s');
+            echo $date->format('m-d-Y');
           ?></td>          
           <td><?php echo $form->email; ?></td>   
           <td><div style="background-color: <?php echo $form->favorite_color; ?>; width:30px; height: 30px; float: left;"></div>&nbsp;&nbsp;<?php echo $form->favorite_color; ?></td>   
