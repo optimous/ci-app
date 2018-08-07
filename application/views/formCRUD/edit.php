@@ -6,7 +6,7 @@
         </div>
     </div>
 </div>
-<form id="myform" method="post" action="<?php echo base_url('formCRUD/update/'.$form->id);?>">
+<form method="post" action="<?php echo base_url('formCRUD/update/'.$form->id);?>">
     <?php
     if ($this->session->flashdata('errors')){
         echo '<div class="alert alert-danger">';

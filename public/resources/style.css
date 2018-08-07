@@ -4,3 +4,7 @@
 input[aria-invalid="true"] {
     border: 1px solid red !important;
 }
+
+input['type="color"'] {
+    min-height: 40px;
+}
