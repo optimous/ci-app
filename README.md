@@ -1,5 +1,5 @@
 # ci-app
-Code Ignaiter app - Test
+Codeigniter app - Test
 
 Test requirements:
 
